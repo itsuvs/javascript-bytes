@@ -2,6 +2,7 @@
   "name": "javascript-bytes",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://itsuvs.github.io/javascript-bytes",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -15,6 +16,7 @@
   },
   "devDependencies": {
     "eslint": "8.11.0",
-    "eslint-config-next": "12.1.0"
+    "eslint-config-next": "12.1.0",
+    "gh-pages": "^3.2.3"
   }
 }
