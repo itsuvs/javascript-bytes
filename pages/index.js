@@ -16,6 +16,8 @@ export default function Home() {
           Learn <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/1200px-Nextjs-logo.svg.png" style={{width: '250px'}}/>
+
         <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
