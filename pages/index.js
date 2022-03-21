@@ -20,18 +20,18 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="https://itsuvs.github.io/javascript-bytes" className={styles.card}>
             <h2>Promise / Asyn-Await &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="https://itsuvs.github.io/javascript-bytes" className={styles.card}>
             <h2>map vs forEach &rarr;</h2>
             <p>Learn about Next.js in an interactive course with quizzes!</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://itsuvs.github.io/javascript-bytes"
             className={styles.card}
           >
             <h2>var, let and const &rarr;</h2>
@@ -39,7 +39,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+            href="https://itsuvs.github.io/javascript-bytes"
             className={styles.card}
           >
             <h2>Binding &rarr;</h2>
@@ -52,7 +52,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://itsuvs.github.io/javascript-bytes"
           target="_blank"
           rel="noopener noreferrer"
         >
