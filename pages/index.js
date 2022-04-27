@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -20,10 +21,12 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a href="https://itsuvs.github.io/javascript-bytes" className={styles.card}>
-            <h2>Promise / Asyn-Await &rarr;</h2>
+          <div className={styles.card}>
+            <Link href="/archives/promises-async-await" >
+              <h2>Promise / Asyn-Await &rarr;</h2>
+            </Link>
             <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          </div>
 
           <a href="https://itsuvs.github.io/javascript-bytes" className={styles.card}>
             <h2>map vs forEach &rarr;</h2>
